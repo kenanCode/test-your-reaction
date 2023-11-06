@@ -15,7 +15,7 @@ mounted() {
   if (this.score < 250) {
     this.rank = "You're a Supersonic Energizer Bunny!"
   } else if (this.score < 400) {
-    this.rank = "You're not bad, just like a duck in flight!"
+    this.rank = "You're not bad, just like a cat taking flight!"
   } else {
     this.rank = "You're a froggy sluggy snail!"
   }
