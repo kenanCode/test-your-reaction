@@ -13,11 +13,11 @@ data () {
 },
 mounted() {
   if (this.score < 250) {
-    this.rank = "You're a Supersonic Energizer Bunny!"
+    this.rank = "You're like a supersonic Energizer Bunny!"
   } else if (this.score < 400) {
     this.rank = "You're not bad, just like a cat taking flight!"
   } else {
-    this.rank = "You're a froggy sluggy snail!"
+    this.rank = "You're like a groggy sluggy snail!"
   }
  }
 }
